@@ -83,7 +83,7 @@ For example, the following command starts CEDAR and stores the results in `/home
 docker run -v /home/foo/bar:/home/workdir -it dnxie/cedar
 ```
 
-#### 2.2.2: 
+#### 2.2.2: Run CEDAR
 
 You could either run 
 ```
@@ -91,6 +91,12 @@ bash run.sh <library> /home/workdir
 ```
 where `<library>` is either `pytorch` or `tensorflow`, or run `bash run_DocTer.sh ....` and `bash run_EAGLE.sh ...` separately. The usage of these scripts can be found in `run.sh`.
 
+
+#### Configs:
+
+The configs for C-DocTer can be found in `configs`, where the users can change the number of iterations and other hyper-parameters.
+
+The configs for C-EAGLE can be found in `EAGLE/config.py`.
 
 #### Troubleshoot (Last update on March 1st, 2024)
 Due to the rapid changes of pytorch/tensorflow codebase, the nightly version may have compatible issues with other packages. 

@@ -19,7 +19,7 @@ workdir_path=$workdir/$package/$version_dir
 virtual_workdir=/home/workdir/$package/$version_dir
 
 echo "===== Start the container ====="
-docker run -v $2:/home/workdir -it -d --name $version_dir researchartifact1234/cedar:latest
+docker run -v $2:/home/workdir -it -d --name $version_dir dnxie/cedar
 
 echo "===== Start DocTer and EAGLE ====="
 docker exec -d -it $version_dir bash -c "bash run.sh $package $virtual_workdir"
