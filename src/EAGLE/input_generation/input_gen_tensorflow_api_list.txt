@@ -1,0 +1,16 @@
+tf.image.encode_png
+tf.keras.layers.AveragePooling2D
+tf.keras.layers.BatchNormalization
+tf.keras.layers.Conv2D_dilation_rate
+tf.keras.layers.Conv2D
+tf.keras.layers.depthwiseconv2d
+tf.keras.layers.gru
+tf.keras.layers.grucell
+tf.keras.layers.lstm
+tf.keras.layers.MaxPool2D
+tf.keras.layers.rnn
+tf.keras.layers.SeparableConv2D
+tf.keras.layers.simplernncell
+tf.keras.layers.ZeroPadding2D
+tfio.image.encode_bmp
+tfio.image.encode_gif
